@@ -76,3 +76,13 @@
      background-repeat: no-repeat;
      background-position: center;
  }
+
+ .sponsor {
+     max-width: 1440px;
+     margin: 100px auto;
+ }
+
+ .sponsor-companies {
+     display: grid;
+     grid-template-columns: repeat(7, 1fr);
+ }
