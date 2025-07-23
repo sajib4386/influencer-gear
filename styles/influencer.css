@@ -77,6 +77,9 @@
      background-position: center;
  }
 
+
+ /*sponsor logo styles*/
+
  .sponsor {
      max-width: 1440px;
      margin: 100px auto;
@@ -86,3 +89,53 @@
      display: grid;
      grid-template-columns: repeat(7, 1fr);
  }
+
+ /*card styles*/
+ .section{
+    justify-items: center;
+ }
+ .section-title{
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #3A3A3A;
+ }
+ .card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+ }
+ .card{
+    background: rgba(247, 247, 247, 1);
+    padding: 20px;
+    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.15);
+    border-radius: 8px;
+ }
+ .card-head{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin-bottom: 6px;
+ }
+ .price{
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 6px;
+ }
+ .stars{
+    color: orange;
+ }
+ .card-title{
+    font-size: 0.75rem;
+    font-weight: 300;
+ }
+.sea-more{
+    width: 100%;
+    text-align: right;
+    margin-top: 50px;
+    margin-right: 820px;
+}
+.sea-more a {
+    text-decoration: none;
+    color: red;
+}
+
+ 
