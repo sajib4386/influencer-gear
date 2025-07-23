@@ -83,59 +83,95 @@
  .sponsor {
      max-width: 1440px;
      margin: 100px auto;
+     border: 1px solid;
+     border-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(153, 153, 153, 1), rgba(255, 255, 255, 1)) 1;
  }
 
  .sponsor-companies {
      display: grid;
      grid-template-columns: repeat(7, 1fr);
+     justify-items: center;
+     padding-top: 20px;
+     padding-bottom: 20px;
  }
 
  /*card styles*/
- .section{
-    justify-items: center;
+ .section {
+     justify-items: center;
  }
- .section-title{
-    font-size: 1.75rem;
-    font-weight: 600;
-    color: #3A3A3A;
- }
- .card-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
- }
- .card{
-    background: rgba(247, 247, 247, 1);
-    padding: 20px;
-    box-shadow: 0px 5px 10px  rgba(0, 0, 0, 0.15);
-    border-radius: 8px;
- }
- .card-head{
-    font-size: 1.75rem;
-    font-weight: 500;
-    margin-bottom: 6px;
- }
- .price{
-    font-size: 1.5rem;
-    font-weight: 400;
-    margin-bottom: 6px;
- }
- .stars{
-    color: orange;
- }
- .card-title{
-    font-size: 0.75rem;
-    font-weight: 300;
- }
-.sea-more{
-    width: 100%;
-    text-align: right;
-    margin-top: 50px;
-    margin-right: 820px;
-}
-.sea-more a {
-    text-decoration: none;
-    color: red;
-}
 
- 
+ .section-title {
+     font-size: 1.75rem;
+     font-weight: 600;
+     color: #3A3A3A;
+ }
+
+ .card-container {
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 30px;
+ }
+
+ .card {
+     background: rgba(247, 247, 247, 1);
+     padding: 20px;
+     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15);
+     border-radius: 8px;
+ }
+
+ .card-head {
+     font-size: 1.75rem;
+     font-weight: 500;
+     margin-bottom: 6px;
+ }
+
+ .price {
+     font-size: 1.5rem;
+     font-weight: 400;
+     margin-bottom: 6px;
+ }
+
+ .stars {
+     color: orange;
+ }
+
+ .card-title {
+     font-size: 0.75rem;
+     font-weight: 300;
+ }
+
+ .sea-more {
+     width: 100%;
+     text-align: right;
+     margin-top: 50px;
+     margin-right: 820px;
+ }
+
+ .sea-more a {
+     text-decoration: none;
+     color: red;
+ }
+
+ /*feature styles*/
+ .section-feature{
+    display: flex;
+    justify-content: center;
+    margin: 0px 165px 0px 165px;
+    gap: 96px;
+ }
+ .feature-title{
+    font-size: 2.375rem;
+    font-weight: bold;
+ }
+ .feature-description{
+    font-size: 1rem;
+    font-weight: 300;  
+ }
+ .btn-2nd{
+    padding: 10px 24px;
+    background-color: rgba(224, 44, 109, 1);
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+ }
